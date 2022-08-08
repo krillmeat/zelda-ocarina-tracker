@@ -1,0 +1,109 @@
+.checks{
+  position: fixed;
+  right: 0;
+  top: 32px;
+  width: 300px;
+  height: calc(100vh - 32px);
+  border-left: 2px solid #333333;
+  overflow-y: scroll;
+}
+
+.checks::-webkit-scrollbar {
+  width: 8px;
+  border-left: 1px solid #333333;
+}
+
+.checks::-webkit-scrollbar-thumb {
+  background-color: #333333;
+}
+
+.checks h2{
+  position: sticky;
+  top: 0px;
+  background: #FFF;
+  color: #333;
+  padding: 12px 8px;
+  font-size: 1.2em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 800;
+  border-bottom: 2px solid #666;
+}
+
+.checks > ul{
+
+}
+
+.checks .area {
+  border-bottom: 2px solid #333;
+}
+
+/* .checks .area.checks-0 *{ opacity: .25 } */
+.checks .area.checks-0{ display: none } /* TODO - Make this an Option */
+
+.checks .area .area-header{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.checks .area .area-header h3 {
+  font-size: 1em;
+  padding: 12px 8px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.checks .area .area-header button{
+  opacity: 0;
+  background: none;
+  border: none;
+}
+
+.checks .area .area-header:hover button{ opacity: 1 }
+
+.checks .area.checks-0 > h3{ font-size: .9em }
+
+.checks .area ul li{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+  font-size: .85em;
+  padding: 8px;
+  border-top: 1px solid #DDD;
+  letter-spacing: .5px;
+}
+
+.checks .area ul li:first-of-type{
+  border-top: 1px solid #333;
+}
+
+.checks .area ul li.check > p{
+  color: #888;
+}
+
+.checks .area ul li button{
+  height: 16px;
+  background: none;
+  margin-left: 4px;
+  border: none;
+  padding: 0;
+}
+
+.checks .area ul li button img{
+  width: 16px;
+  margin: 0;
+}
+
+.checks .area ul li button.launch-check-modal{
+  opacity: 0;
+}
+
+.checks .area ul li:hover button.launch-check-modal{
+  opacity: 1;
+}
+
+.checks .area ul li > div{
+  display: flex;
+}

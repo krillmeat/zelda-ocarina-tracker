@@ -1,0 +1,63 @@
+.collected-items{
+  position: fixed;
+  top: 32px;
+  width: 220px;
+  height: calc(100vh - 32px);
+  border-right: 2px solid #333333;
+}
+
+.collected-items button{
+  padding: 0;
+  background: none;
+  border: none;
+}
+
+.collected-items .items ul,
+.collected-items .quests ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.collected-items .items ul li,
+.collected-items .quests ul li{
+  width: 25%;
+  padding: 8px;
+}
+
+.collected-items .items ul li img,
+.collected-items .quests ul li img{
+  width: 100%;
+}
+
+.collected-items .items,
+.collected-items .quests{
+  border-bottom: 2px solid #333333;
+}
+
+.collected-items .equipment{
+  padding: 8px;
+}
+
+.collected-items ul li.state-0 button,
+.collected-items ul li.state-false button{
+  opacity: .25;
+}
+
+.age-toggle{
+  display: flex;
+}
+
+.age-toggle button{
+  width: 50%;
+  padding: 8px;
+  border-bottom: 2px solid #333333;
+}
+
+.age-toggle button:first-of-type{
+  border-right: 1px solid #333333;
+}
+
+.age-toggle button.active{
+  background: #333333;
+  color: #FFF;
+}
