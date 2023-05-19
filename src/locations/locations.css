@@ -1,0 +1,40 @@
+.locations{
+  font-size: .9rem;
+}
+
+.locations .area{
+  border-bottom: 2px solid #000;
+}
+
+.locations h2{
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 16px;
+  border-bottom: 2px solid #000;
+}
+
+.locations ul{
+  list-style: none;
+}
+
+.locations li{
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #000;
+  padding: 8px;
+}
+
+.locations .checkbox{
+  background: none;
+  padding: 2px;
+  width: 24px; height: 24px;
+  border: none;
+}
+
+.locations .checkbox img{
+  width: 20px; height: 20px;
+}
+
+.locations li span{
+  margin-left: 8px;
+}

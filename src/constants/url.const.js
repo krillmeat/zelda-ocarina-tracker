@@ -1,0 +1,1 @@
+export const ASSET_URL = 'https://rossdanielconover.com/zelda-ocarina-tracker/assets'
